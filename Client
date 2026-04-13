@@ -1,0 +1,109 @@
+{
+  "name": "Client",
+  "type": "object",
+  "properties": {
+    "full_name": {
+      "type": "string",
+      "title": "Full Name"
+    },
+    "first_name": {
+      "type": "string",
+      "title": "First Name"
+    },
+    "last_name": {
+      "type": "string",
+      "title": "Last Name"
+    },
+    "email": {
+      "type": "string",
+      "title": "Email"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone"
+    },
+    "company": {
+      "type": "string",
+      "title": "Company"
+    },
+    "designation": {
+      "type": "string",
+      "title": "Designation"
+    },
+    "industry": {
+      "type": "string",
+      "title": "Industry",
+      "enum": [
+        "Pharma",
+        "Agrochemical",
+        "Speciality Chemicals",
+        "Cosmetics",
+        "Consultant - Pharma",
+        "Consultant - Agro/Chemical",
+        "Academic",
+        "Others"
+      ]
+    },
+    "profession": {
+      "type": "string",
+      "title": "Profession",
+      "enum": [
+        "CEO / Founder",
+        "Director",
+        "Manager",
+        "Engineer",
+        "Developer",
+        "Designer",
+        "Consultant",
+        "Analyst",
+        "Sales",
+        "Marketing",
+        "HR",
+        "Accountant",
+        "Lawyer",
+        "Doctor",
+        "Architect",
+        "Freelancer",
+        "Other"
+      ]
+    },
+    "city": {
+      "type": "string",
+      "title": "City"
+    },
+    "state": {
+      "type": "string",
+      "title": "State"
+    },
+    "country": {
+      "type": "string",
+      "title": "Country"
+    },
+    "website": {
+      "type": "string",
+      "title": "Website"
+    },
+    "address": {
+      "type": "string",
+      "title": "Address"
+    },
+    "notes": {
+      "type": "string",
+      "title": "Notes"
+    },
+    "card_image": {
+      "type": "string",
+      "title": "Business Card Image"
+    },
+    "tags": {
+      "type": "array",
+      "title": "Tags",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "full_name"
+  ]
+}
